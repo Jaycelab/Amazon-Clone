@@ -1,3 +1,4 @@
+import Footer from '@/components/shared/footer'
 import Header from '@/components/shared/header'
 import Search from '@/components/shared/header/search'
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <Header />
       <Search />
+      <Footer />
     </div>
   )
 }
