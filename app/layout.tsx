@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
+import { APP_DESCRIPTION, APP_NAME, APP_SLOGAN } from '@/lib/constants'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -13,8 +14,11 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'UPS/FedEX biggest opps',
-  description: 'Created by Jayce',
+  title: {
+    template: `$s | ${APP_NAME}`,
+    default: `${APP_NAME}, ${APP_SLOGAN}`, // Default title
+  },
+  description: APP_DESCRIPTION,
 }
 
 export default function RootLayout({

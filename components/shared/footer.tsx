@@ -7,7 +7,7 @@ import { APP_NAME } from '@/lib/constants'
 
 export default function Footer() {
   return (
-    <footer className='bg=black text-white underline-link'>
+    <footer className='bg-black text-white underline-link'>
       <div className='w-full'>
         <Button
           variant='ghost'
@@ -25,10 +25,10 @@ export default function Footer() {
           <Link href='/page/privacy-policy'>Privacy Notice</Link>
           <Link href='pages/help'>Help</Link>
         </div>
-        <div className='flex justify-center text-sm text-gray-400'>
-          <p>@ 2024 {APP_NAME}, Inc. Website created by Jayce</p>
+        <div className='flex justify-center text-sm '>
+          <p>@ 2024 {APP_NAME}, Inc. | Website created by Jaycelab</p>
         </div>
-        <div className='mt-8 flex justify-center text-sm text-gray-400'>
+        <div className='mt-8 flex justify-center text-sm'>
           <p>123 Disneyland Drive, Anaheim, CA 12345 | +1 (714) 123-4567</p>
         </div>
       </div>
