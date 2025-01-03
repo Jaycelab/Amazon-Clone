@@ -28,7 +28,7 @@ export default function Footer() {
         <div className='flex justify-center text-sm '>
           <p>@ 2024 {APP_NAME}, Inc. | Website created by Jaycelab</p>
         </div>
-        <div className='mt-8 flex justify-center text-xs'>
+        <div className='mt-6 flex justify-center text-xs'>
           <p>123 Amazonia Circle, Irvine, CA 90004 | +1 (949) 444-5555</p>
         </div>
       </div>
