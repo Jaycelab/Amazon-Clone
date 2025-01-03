@@ -22,13 +22,13 @@ export default function Footer() {
       <div className='p-4'>
         <div className='flex justify-center gap-3 text-sm'>
           <Link href='/page/conditions-of-use'>Conditions of Use</Link>
-          <Link href='/page/privacy-policy'>Privacy Notice</Link>
+          <Link href='/page/priva cy-policy'>Privacy Notice</Link>
           <Link href='pages/help'>Help</Link>
         </div>
         <div className='flex justify-center text-sm '>
           <p>@ 2024 {APP_NAME}, Inc. | Website created by Jaycelab</p>
         </div>
-        <div className='mt-6 flex justify-center text-xs'>
+        <div className='mt-6 flex justify-center text-xs text-gray-400'>
           <p>123 Amazonia Circle, Irvine, CA 90004 | +1 (949) 444-5555</p>
         </div>
       </div>
