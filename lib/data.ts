@@ -10,6 +10,10 @@ const data = {
       href: '/search?tag=new-arrival',
     },
     {
+      name: 'Prime Video',
+      href: '/search?tag=prime-video',
+    },
+    {
       name: 'Featured Products',
       href: '/search?tag=featured',
     },

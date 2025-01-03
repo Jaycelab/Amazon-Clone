@@ -10,14 +10,23 @@ import {
 } from '@/components/ui/select'
 
 import { APP_NAME } from '@/lib/constants'
-const categories = ['men', 'women', 'kids', 'accessories']
+const categories = [
+  'men',
+  'women',
+  'kids',
+  'accessories',
+  'shoes',
+  'bags',
+  'jewelry',
+  'watches',
+]
 //static array of categories
 
 export default async function Search() {
   return (
     <form action='/search/' method='GET' className='flex items-stretch h-10'>
       <Select name='category'>
-        <SelectTrigger>
+        <SelectTrigger className='w-auto h-full dark:border-gray-200 bg-gray-100 text-black border-r  rounded-r-none rounded-l-md rtl:rounded-r-md rtl:rounded-l-none  '>
           <SelectValue />
         </SelectTrigger>
         <SelectContent>
