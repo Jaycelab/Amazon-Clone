@@ -28,8 +28,8 @@ export default function Footer() {
         <div className='flex justify-center text-sm '>
           <p>@ 2024 {APP_NAME}, Inc. | Website created by Jaycelab</p>
         </div>
-        <div className='mt-8 flex justify-center text-sm'>
-          <p>123 Disneyland Drive, Anaheim, CA 12345 | +1 (714) 123-4567</p>
+        <div className='mt-8 flex justify-center text-xs'>
+          <p>123 Amazonia Circle, Irvine, CA 90004 | +1 (949) 444-5555</p>
         </div>
       </div>
     </footer>
