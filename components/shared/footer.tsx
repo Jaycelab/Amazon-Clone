@@ -26,7 +26,7 @@ export default function Footer() {
           <Link href='pages/help'>Help</Link>
         </div>
         <div className='flex justify-center text-sm '>
-          <p>@ 2024 {APP_NAME}, Inc. | Website created by Jaycelab</p>
+          <p>@ 20253 {APP_NAME}, Inc. | Website created by Jaycelab</p>
         </div>
         <div className='mt-6 flex justify-center text-xs text-gray-400'>
           <p>123 Amazonia Circle, Irvine, CA 90004 | +1 (949) 444-5555</p>

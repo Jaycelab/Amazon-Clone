@@ -8,7 +8,6 @@ This project is a clone of the Amazon website, built for educational purposes. I
 - Product listing and search
 - Shopping cart management
 - Order placement and tracking
-- User profile management
 
 ## Technologies Used
 
