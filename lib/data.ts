@@ -64,52 +64,52 @@ const data = {
       isPublished: true, //if false, the carousel will not be displayed
     },
     {
-      title: 'Best Deals on 2',
-      buttonCaption: 'See More',
+      title: 'Top Signature Jewelry',
+      buttonCaption: 'Shop Now',
       image: '/images/banner4.jpg',
-      url: '/search?category=Wrist-Watches',
+      url: '/search?category=Jewelry',
       isPublished: true, //if false, the carousel will not be displayed
     },
     {
-      title: 'Best Deals on 5',
+      title: 'Assortment of Pet Toys',
       buttonCaption: 'See More',
       image: '/images/banner5.jpg',
-      url: '/search?category=Wrist-Watches',
+      url: '/search?category=Pet-Toys',
       isPublished: true, //if false, the carousel will not be displayed
     },
     {
-      title: 'Best Deals on 7',
+      title: 'Best Deals on Headphones',
       buttonCaption: 'See More',
-      image: '/images/banner6.jpg',
-      url: '/search?category=Wrist-Watches',
+      image: '/images/banner11.jpg',
+      url: '/search?category=Headphones',
       isPublished: true, //if false, the carousel will not be displayed
     },
     {
-      title: 'Best Deals on Test',
+      title: '30-50% Off on Bags',
       buttonCaption: 'See More',
       image: '/images/banner7.jpg',
-      url: '/search?category=Wrist-Watches',
+      url: '/search?category=Bags',
       isPublished: true, //if false, the carousel will not be displayed
     },
     {
-      title: 'Best Deals on 12',
-      buttonCaption: 'See More',
+      title: 'Essential Oils for Sale',
+      buttonCaption: 'Shop Now',
       image: '/images/banner8.jpg',
-      url: '/search?category=Wrist-Watches',
+      url: '/search?category=Essential-Oils',
       isPublished: true, //if false, the carousel will not be displayed
     },
     {
-      title: 'Best Deals on W435',
+      title: 'Designer Bags for Sale',
       buttonCaption: 'See More',
       image: '/images/banner9.jpg',
-      url: '/search?category=Wrist-Watches',
+      url: '/search?category=Designer-Bags',
       isPublished: true, //if false, the carousel will not be displayed
     },
     {
-      title: 'Best Deals on 123',
-      buttonCaption: 'See More',
+      title: 'Your Everyday Makeup Needs',
+      buttonCaption: 'Shop Now',
       image: '/images/banner10.jpg',
-      url: '/search?category=Wrist-Watches',
+      url: '/search?category=Makeup',
       isPublished: true, //if false, the carousel will not be displayed
     },
   ],
