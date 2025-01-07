@@ -19,7 +19,7 @@ export default async function Page() {
   })
 
   const bestSellers = await getProductsForCard({
-    tag: 'best-sellers',
+    tag: 'best-seller',
     limit: 4,
   })
 
@@ -50,7 +50,7 @@ export default async function Page() {
       title: 'Discover Best Sellers',
       items: bestSellers,
       link: {
-        text: 'View All',
+        text: 'Explore More',
         href: '/search?tag=new-arrival',
       },
     },
@@ -60,7 +60,7 @@ export default async function Page() {
       items: featureds,
       link: {
         text: 'Shop Now',
-        href: '/search?tag=new-arrivals',
+        href: '/search?tag=new-arrival',
       },
     },
   ]
