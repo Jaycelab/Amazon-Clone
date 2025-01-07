@@ -10,7 +10,7 @@ import data from '@/lib/data'
 export default async function Page() {
   const categories = (await getAllCategories()).slice(0, 4)
   const newArrivals = await getProductsForCard({
-    tag: 'new-arrivals',
+    tag: 'new-arrival',
     limit: 4,
   })
   const featureds = await getProductsForCard({
@@ -42,7 +42,7 @@ export default async function Page() {
       items: newArrivals,
       link: {
         text: 'View All',
-        href: '/search?tag=new-arrivals',
+        href: '/search?tag=new-arrival',
       },
     },
 
@@ -51,7 +51,7 @@ export default async function Page() {
       items: bestSellers,
       link: {
         text: 'View All',
-        href: '/search?tag=new-arrivals',
+        href: '/search?tag=new-arrival',
       },
     },
 
