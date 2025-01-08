@@ -795,7 +795,7 @@ const data: Data = {
       isPublished: true, //if false, the carousel will not be displayed
     },
     {
-      title: '30-50% Off on Bags',
+      title: '30-50% Off Bags',
       buttonCaption: 'See More',
       image: '/images/banner7.jpg',
       url: '/search?category=Bags',
@@ -809,14 +809,14 @@ const data: Data = {
       isPublished: true, //if false, the carousel will not be displayed
     },
     {
-      title: 'Designer Bags for Sale',
+      title: 'Everyday designer bags',
       buttonCaption: 'See More',
       image: '/images/banner9.jpg',
       url: '/search?category=Designer-Bags',
       isPublished: true, //if false, the carousel will not be displayed
     },
     {
-      title: 'Your Everyday Makeup Needs',
+      title: 'Large Collection on Makeup Needs',
       buttonCaption: 'Shop Now',
       image: '/images/banner10.jpg',
       url: '/search?category=Makeup',
