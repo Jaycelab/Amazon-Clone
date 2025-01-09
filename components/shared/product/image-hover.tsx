@@ -13,7 +13,7 @@ const ImageHover = ({
   alt: string
 }) => {
   const [isHovered, setIsHovered] = useState(false)
-  let hoverTimeout: NodeJS.Timeout
+  let hoverTimeout: NodeJS.Timeout // NodeJS.Timeout is the type of setTimeout to replace any
   const handleMouseEnter = () => {
     hoverTimeout = setTimeout(() => setIsHovered(true), 1000) // 1 sec delay
   }
