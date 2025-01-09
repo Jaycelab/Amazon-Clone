@@ -19,3 +19,19 @@ export const toSlug = (text: string): string =>
     .replace(/\s+/g, '-') // Replace spaces with hyphens
     .replace(/^-+|-+$/g, '') // Remove leading and trailing hyphens
     .replace(/-+/g, '-') // Replace multiple hyphens with a single hyphen
+
+const CURRENCY_FORMATTER = new Intl.NumberFormat('en-US', {
+  // Create a new instance of Intl.NumberFormat with the following options
+  currency: 'USD',
+  style: 'currency',
+  minimumFractionDigits: 2,
+})
+
+export function formatCurrency(amount: number) {
+  return CURRENCY_FORMATTER.format(amount)
+}
+
+const NUMBER_FORMATTER = new Intl.NumberFormat('en-US')
+export function formatNumber(number: number) {
+  return NUMBER_FORMATTER.format(number)
+}
