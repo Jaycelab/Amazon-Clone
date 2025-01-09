@@ -68,7 +68,7 @@ export default async function Page() {
   return (
     <>
       <HomeCarousel items={data.carousels} />
-      <div className='md:p-4 md:space-y-4 bg-border object-contain'></div>
+      <div className='md:p-4 md:space-y-4 bg-border object-fit: contain'></div>
       <HomeCard cards={cards} />
     </>
   )
