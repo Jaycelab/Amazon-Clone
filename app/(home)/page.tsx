@@ -68,7 +68,7 @@ export default async function Page() {
   return (
     <>
       <HomeCarousel items={data.carousels} />
-      <div className='object-cover h-48 w-96'></div>
+      <div className='object-contain'></div>
       <HomeCard cards={cards} />
     </>
   )
