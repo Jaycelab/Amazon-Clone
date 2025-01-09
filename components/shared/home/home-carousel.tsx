@@ -31,7 +31,7 @@ export function HomeCarousel({
     <Carousel
       dir='ltr'
       plugins={[plugin.current]}
-      className='w-full mx-auto '
+      className='object-fit: contain'
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
