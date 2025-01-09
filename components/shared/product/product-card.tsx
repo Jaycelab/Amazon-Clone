@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
-import Product, { IProduct } from '@/lib/db/models/product.model'
+import { IProduct } from '@/lib/db/models/product.model'
 
 import Rating from './rating'
 import { formatNumber } from '@/lib/utils'
