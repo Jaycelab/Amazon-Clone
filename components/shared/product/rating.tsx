@@ -13,7 +13,6 @@ export default function Rating({
   const partialStar = rating % 1
   const emptyStars = 5 - Math.ceil(rating)
 
-  // Return a div element with a flex container that contains the star icons. The number of full stars is determined by the rating prop, while the number of empty stars is determined by subtracting the rating from 5. If the rating is not a whole number, a partial star is displayed.
   return (
     <div
       className='flex items-center'
