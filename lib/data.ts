@@ -815,69 +815,6 @@ const data: Data = {
       url: '/search?category=Designer-Bags',
       isPublished: true, //if false, the carousel will not be displayed
     },
-    {
-      title: "I'm just a chill guy",
-      buttonCaption: 'Shop Now',
-      image: '/images/banner12.png',
-      url: '/search?category=Makeup',
-      isPublished: true, //if false, the carousel will not be displayed
-    },
-    {
-      title: "I'm just a chill guy",
-      buttonCaption: 'Shop Now',
-      image: '/images/banner13.png',
-      url: '/search?category=Makeup',
-      isPublished: true, //if false, the carousel will not be displayed
-    },
-    {
-      title: "I'm just a chill guy",
-      buttonCaption: 'Shop Now',
-      image: '/images/banner14.png',
-      url: '/search?category=Makeup',
-      isPublished: true, //if false, the carousel will not be displayed
-    },
-    {
-      title: "I'm just a chill guy",
-      buttonCaption: 'Shop Now',
-      image: '/images/banner15.png',
-      url: '/search?category=Makeup',
-      isPublished: true, //if false, the carousel will not be displayed
-    },
-    {
-      title: "I'm just a chill guy",
-      buttonCaption: 'Shop Now',
-      image: '/images/banner16.png',
-      url: '/search?category=Makeup',
-      isPublished: true, //if false, the carousel will not be displayed
-    },
-    {
-      title: "I'm just a chill guy",
-      buttonCaption: 'Shop Now',
-      image: '/images/banner17.png',
-      url: '/search?category=Makeup',
-      isPublished: true, //if false, the carousel will not be displayed
-    },
-    {
-      title: "I'm just a chill guy",
-      buttonCaption: 'Shop Now',
-      image: '/images/banner18.png',
-      url: '/search?category=Makeup',
-      isPublished: true, //if false, the carousel will not be displayed
-    },
-    {
-      title: "I'm just a chill guy",
-      buttonCaption: 'Shop Now',
-      image: '/images/banner19.png',
-      url: '/search?category=Makeup',
-      isPublished: true, //if false, the carousel will not be displayed
-    },
-    {
-      title: "I'm just a chill guy",
-      buttonCaption: 'Shop Now',
-      image: '/images/banner20.png',
-      url: '/search?category=Makeup',
-      isPublished: true, //if false, the carousel will not be displayed
-    },
   ],
 }
 
