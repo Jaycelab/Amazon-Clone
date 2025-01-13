@@ -1,0 +1,50 @@
+"filename", "language", "JSON with Comments", "TypeScript", "JSON", "JavaScript", "Notes", "TypeScript JSX", "Markdown", "XML", "PostCSS", "comment", "blank", "total"
+"c:\Users\Jayce\Desktop\amazon\README.md", "Markdown", 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 19, 52
+"c:\Users\Jayce\Desktop\amazon\app\(home)\layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 2, 17
+"c:\Users\Jayce\Desktop\amazon\app\(home)\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 87, 0, 0, 0, 0, 13, 100
+"c:\Users\Jayce\Desktop\amazon\app\(root)\product\[slug]\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 111, 0, 0, 0, 3, 12, 126
+"c:\Users\Jayce\Desktop\amazon\app\globals.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, 0, 80, 0, 7, 87
+"c:\Users\Jayce\Desktop\amazon\app\layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 34, 0, 0, 0, 0, 5, 39
+"c:\Users\Jayce\Desktop\amazon\components.json", "JSON", 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 21
+"c:\Users\Jayce\Desktop\amazon\components\shared\footer.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 34, 0, 0, 0, 0, 4, 38
+"c:\Users\Jayce\Desktop\amazon\components\shared\header\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 59, 0, 0, 0, 2, 6, 67
+"c:\Users\Jayce\Desktop\amazon\components\shared\header\menu.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 18, 0, 0, 0, 0, 3, 21
+"c:\Users\Jayce\Desktop\amazon\components\shared\header\search.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 56, 0, 0, 0, 1, 6, 63
+"c:\Users\Jayce\Desktop\amazon\components\shared\home\home-card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 54, 0, 0, 0, 1, 3, 58
+"c:\Users\Jayce\Desktop\amazon\components\shared\home\home-carousel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 64, 0, 0, 0, 0, 4, 68
+"c:\Users\Jayce\Desktop\amazon\components\shared\product\image-hover.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 49, 0, 0, 0, 0, 6, 55
+"c:\Users\Jayce\Desktop\amazon\components\shared\product\product-card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 95, 0, 0, 0, 1, 9, 105
+"c:\Users\Jayce\Desktop\amazon\components\shared\product\product-gallery.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 46, 0, 0, 0, 0, 3, 49
+"c:\Users\Jayce\Desktop\amazon\components\shared\product\product-price.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 71, 0, 0, 0, 1, 5, 77
+"c:\Users\Jayce\Desktop\amazon\components\shared\product\product-slider.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 54, 0, 0, 0, 0, 3, 57
+"c:\Users\Jayce\Desktop\amazon\components\shared\product\rating.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 43, 0, 0, 0, 1, 3, 47
+"c:\Users\Jayce\Desktop\amazon\components\shared\product\select-variant.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 75, 0, 0, 0, 3, 5, 83
+"c:\Users\Jayce\Desktop\amazon\components\ui\button.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 52, 0, 0, 0, 0, 6, 58
+"c:\Users\Jayce\Desktop\amazon\components\ui\card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 68, 0, 0, 0, 0, 9, 77
+"c:\Users\Jayce\Desktop\amazon\components\ui\carousel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 232, 0, 0, 0, 0, 31, 263
+"c:\Users\Jayce\Desktop\amazon\components\ui\input.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 19, 0, 0, 0, 0, 4, 23
+"c:\Users\Jayce\Desktop\amazon\components\ui\select.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 146, 0, 0, 0, 0, 14, 160
+"c:\Users\Jayce\Desktop\amazon\components\ui\separator.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 27, 0, 0, 0, 0, 5, 32
+"c:\Users\Jayce\Desktop\amazon\eslint.config.mjs", "JavaScript", 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 5, 17
+"c:\Users\Jayce\Desktop\amazon\lib\actions\product.actions.ts", "TypeScript", 0, 85, 0, 0, 0, 0, 0, 0, 0, 3, 8, 96
+"c:\Users\Jayce\Desktop\amazon\lib\constants.ts", "TypeScript", 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9
+"c:\Users\Jayce\Desktop\amazon\lib\data.ts", "TypeScript", 0, 786, 0, 0, 0, 0, 0, 0, 0, 5, 31, 822
+"c:\Users\Jayce\Desktop\amazon\lib\db\index.ts", "TypeScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 1, 5, 16
+"c:\Users\Jayce\Desktop\amazon\lib\db\models\product.model.ts", "TypeScript", 0, 94, 0, 0, 0, 0, 0, 0, 0, 2, 5, 101
+"c:\Users\Jayce\Desktop\amazon\lib\db\seed.ts", "TypeScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 6, 29
+"c:\Users\Jayce\Desktop\amazon\lib\utils.ts", "TypeScript", 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 8, 38
+"c:\Users\Jayce\Desktop\amazon\lib\validator.ts", "TypeScript", 0, 43, 0, 0, 0, 0, 0, 0, 0, 2, 3, 48
+"c:\Users\Jayce\Desktop\amazon\next.config.ts", "TypeScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 1, 3, 8
+"c:\Users\Jayce\Desktop\amazon\package-lock.json", "JSON", 0, 0, 6848, 0, 0, 0, 0, 0, 0, 0, 1, 6849
+"c:\Users\Jayce\Desktop\amazon\package.json", "JSON", 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 1, 42
+"c:\Users\Jayce\Desktop\amazon\postcss.config.mjs", "JavaScript", 0, 0, 0, 6, 0, 0, 0, 0, 0, 1, 2, 9
+"c:\Users\Jayce\Desktop\amazon\public\icons\amazon-icon.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"c:\Users\Jayce\Desktop\amazon\public\icons\amazon-rec.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"c:\Users\Jayce\Desktop\amazon\public\icons\amazon-tile.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"c:\Users\Jayce\Desktop\amazon\public\icons\logo.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"c:\Users\Jayce\Desktop\amazon\public\icons\logo2.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"c:\Users\Jayce\Desktop\amazon\tailwind.config.ts", "TypeScript", 0, 61, 0, 0, 0, 0, 0, 0, 0, 0, 2, 63
+"c:\Users\Jayce\Desktop\amazon\tdl.notes", "Notes", 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3, 6
+"c:\Users\Jayce\Desktop\amazon\tsconfig.json", "JSON with Comments", 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 28
+"c:\Users\Jayce\Desktop\amazon\types\index.ts", "TypeScript", 0, 17, 0, 0, 0, 0, 0, 0, 0, 1, 3, 21
+"Total", "-", 27, 1159, 6910, 18, 3, 1509, 33, 5, 80, 31, 275, 10050
