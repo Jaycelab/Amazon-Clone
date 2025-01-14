@@ -25,7 +25,7 @@ const ImageHover = ({
 
   return (
     <div
-      className='realtive h-52'
+      className='relative h-52'
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
