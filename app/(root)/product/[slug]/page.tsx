@@ -11,6 +11,7 @@ import { Separator } from '@/components/ui/separator'
 import ProductSlider from '@/components/shared/product/product-slider'
 import Rating from '@/components/shared/product/rating'
 import BrowsingHistoryList from '@/components/shared/browsing-history-list'
+import AddToBrowsingHistory from '@/components/shared/product/add-to-browsing-history'
 
 export async function generateMetadata(props: {
   //  get slug from params and get product by slug to find product from DB and return title and description (if true)
@@ -45,6 +46,7 @@ export default async function ProductDetails(props: {
 
   return (
     <div>
+      <AddToBrowsingHistory id={product._id} category={product.category} />
       <section>
         <div className='grid grid-cols-1 md:grid-cols-5'>
           <div className='col-span-2'>
