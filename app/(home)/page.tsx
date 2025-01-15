@@ -11,6 +11,7 @@ import {
 
 import data from '@/lib/data'
 import { Card, CardContent } from '@/components/ui/card'
+import BrowsingHistoryList from '@/components/shared/browsing-history-list'
 
 export default async function Page() {
   const categories = (await getAllCategories()).slice(0, 4)
@@ -94,6 +95,9 @@ export default async function Page() {
           ></ProductSlider>
         </CardContent>
       </Card>
+      <div className='p4 bg-background'>
+        <BrowsingHistoryList/>
+      </div>
     </>
   )
 }

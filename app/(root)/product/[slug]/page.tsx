@@ -10,6 +10,7 @@ import ProductGallery from '@/components/shared/product/product-gallery'
 import { Separator } from '@/components/ui/separator'
 import ProductSlider from '@/components/shared/product/product-slider'
 import Rating from '@/components/shared/product/rating'
+import BrowsingHistoryList from '@/components/shared/browsing-history-list'
 
 export async function generateMetadata(props: {
   //  get slug from params and get product by slug to find product from DB and return title and description (if true)
@@ -119,6 +120,10 @@ export default async function ProductDetails(props: {
           products={relatedProducts.data}
           title={`Best Sellers in ${product.category}`}
         />
+      </section>
+
+      <section>
+        <BrowsingHistoryList className='mt-10' />
       </section>
     </div>
   )
