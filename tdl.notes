@@ -1,5 +1,5 @@
 - find better logo svg.
 - update data headers with current amazon website data
-- setup database via mongodb atlas
+- fix footer alignment and header padding on xs screen (<480px screens)
 
 
