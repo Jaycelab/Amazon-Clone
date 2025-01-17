@@ -13,7 +13,7 @@ import { useToast } from '@/hooks/use-toast'
 import { OrderItem } from '@/types'
 import { useRouter } from 'next/router'
 
-import { use, useState } from 'react'
+import { useState } from 'react'
 
 export default function AddToCart({
   item,

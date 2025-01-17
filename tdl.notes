@@ -1,3 +1,6 @@
+- Check react hook addtobrowsing history component
+- Sub error type in addtocart component. 51/84/100
+
 - find better logo svg.
 - update data headers with current amazon website data
 - fix footer alignment and header padding on xs screen (<480px screens)

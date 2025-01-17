@@ -1,4 +1,5 @@
 'use client'
+
 import useBrowsingHistory from '@/hooks/use-browsing-history'
 import { useEffect } from 'react'
 
