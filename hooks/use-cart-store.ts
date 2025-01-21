@@ -3,7 +3,6 @@ import { persist } from 'zustand/middleware'
 
 import { Cart, OrderItem } from '@/types'
 import { calcDeliveryDateAndPrice } from '@/lib/actions/order.actions'
-import { get } from 'http'
 
 const initialState: Cart = {
   items: [],
@@ -11,8 +10,8 @@ const initialState: Cart = {
   taxPrice: undefined,
   shippingPrice: undefined,
   totalPrice: 0,
-  paymentMethod: 'undefined', // paypal, stripe, etc later
-  deliveryDateIndex: 0,
+  paymentMethod: undefined, // paypal, stripe, etc later
+  deliveryDateIndex: undefined,
 }
 
 interface CartState {
@@ -40,7 +39,7 @@ const useCartStore = create(
           }
         } else {
           if (item.countInStock < item.quantity) {
-            throw new Error('Sorry, this item is out of stock')
+            throw new Error('Sorry, not enough items in stock')
           }
         } // nested if check to see if the item is in stock for both new and existing items
 
@@ -64,6 +63,7 @@ const useCartStore = create(
           },
         })
 
+        // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
         return updatedCartItems.find(
           (x) =>
             x.product === item.product &&
