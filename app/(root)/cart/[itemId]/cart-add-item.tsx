@@ -16,7 +16,6 @@ export default function CartAddItem({ itemId }: { itemId: string }) {
   const {
     cart: { items, itemsPrice },
   } = useCartStore()
-
   const item = items.find((x) => x.clientId === itemId)
 
   if (!item) return notFound()
@@ -51,6 +50,7 @@ export default function CartAddItem({ itemId }: { itemId: string }) {
             </div>
           </CardContent>
         </Card>
+
         <Card className='w-full rounded-none'>
           <CardContent className='p-4 h-full'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
@@ -78,6 +78,7 @@ export default function CartAddItem({ itemId }: { itemId: string }) {
                   </div>
                 )}
               </div>
+
               <div className='lg:border-l lg:border-muted lg:pl-3 flex flex-col items-center gap-3  '>
                 <div className='flex gap-3'>
                   <span className='text-lg font-bold'>Cart Subtotal:</span>

@@ -117,6 +117,7 @@ export default async function ProductDetails(props: {
             </Card>
 
             {/* render add to cart button and count in stock */}
+            
             {product.countInStock !== 0 && (
               <div className='flex justify-center items-center'>
                 <AddToCart
