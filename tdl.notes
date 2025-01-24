@@ -1,7 +1,4 @@
 //important
-- Fix client side routing issue (possible react router dom issue?)
-- DEBUG  cart component not showing 
-- Check react hook addtobrowsing history component
 - Sub error type in addtocart component. 51/84/100
 
 //tasks
@@ -10,12 +7,3 @@
 - fix footer alignment and header padding on xs screen (<480px screens)
 
 
-//client error message 
-//eslint config
-  {
-    rules: {
-      '@typescript-eslint/no-explicit-any': 'warn ',
-    },
-  },
-
-  /* eslint-disable @typescript-eslint/no-explicit-any */
