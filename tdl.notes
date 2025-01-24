@@ -10,6 +10,8 @@
 - fix footer alignment and header padding on xs screen (<480px screens)
 
 
+//client error message 
+//eslint config
   {
     rules: {
       '@typescript-eslint/no-explicit-any': 'warn ',
