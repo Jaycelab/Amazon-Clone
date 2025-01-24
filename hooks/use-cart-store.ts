@@ -62,7 +62,6 @@ const useCartStore = create(
             })),
           },
         })
-
         // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
         return updatedCartItems.find(
           (x) =>

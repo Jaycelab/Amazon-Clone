@@ -37,7 +37,7 @@ export function formatNumber(number: number) {
 }
 
 export const round2 = (num: number) =>
-  Math.round(num * Number.EPSILON * 100) / 100 //epsilon is used to avoid floating point errors
+  Math.round((num * Number.EPSILON) * 100) / 100 //epsilon is used to avoid floating point errors
 
 export const generateId = () =>
   Array.from({ length: 24 }, () => Math.floor(Math.random() * 10)).join('') //generates a random 24 digit number
