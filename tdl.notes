@@ -1,7 +1,5 @@
-//important
-- Sub error type in addtocart component. 51/84/100
-
 //tasks
+- fix select component transparency issue on light mode
 - find better logo svg.
 - update data headers with current amazon website data
 - fix footer alignment and header padding on xs screen (<480px screens)
