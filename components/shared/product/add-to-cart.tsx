@@ -65,7 +65,7 @@ export default function AddToCart({
         value={quantity.toString()} //convert to string
         onValueChange={(i) => setQuantity(Number(i))} //convert to number
       >
-        <SelectTrigger className=''>
+        <SelectTrigger className='text-black'>
           <SelectValue>Quantity: {quantity}</SelectValue>
         </SelectTrigger>
         <SelectContent position='popper'>
