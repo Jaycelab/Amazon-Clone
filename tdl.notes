@@ -1,5 +1,5 @@
 //tasks
-- fix select component transparency issue on light mode
+- fix select component transparency issue on light mode (select component qty is not visible on light mode)
 - find better logo svg.
 - update data headers with current amazon website data
 - fix footer alignment and header padding on xs screen (<480px screens)
