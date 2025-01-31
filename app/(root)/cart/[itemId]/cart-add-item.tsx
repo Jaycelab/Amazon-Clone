@@ -23,7 +23,7 @@ export default function CartAddItem({ itemId }: { itemId: string }) {
     <div>
       <div className='grid grid-cols-1 md:grid-cols-2 md:gap-4'>
         <Card className='w-full rounded-none'>
-          <CardContent className='flex h-full items-center justify-center  gap-3 py-4'>
+          <CardContent className='flex h-full items-center justify-center gap-3 py-4'>
             <Link href={`/product/${item.slug}`}>
               <Image
                 src={item.image}

@@ -1,3 +1,5 @@
+'use client'
+
 import { cn, formatCurrency } from '@/lib/utils'
 
 const ProductPrice = ({
