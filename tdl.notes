@@ -6,8 +6,7 @@
 - check product component add-to-cart
 - check hooks use-cart store 
 
-- fix select component transparency issue on light mode (select component qty is not visible on light mode)
-- fix pricing on addCart page (addCart page is not showing correct pricing/zero pricing)
+- fix select component transparency issue on light mode in product page. 
 
 //tasks
 - find better logo svg.
