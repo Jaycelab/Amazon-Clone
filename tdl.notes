@@ -7,6 +7,9 @@
 - check product component add-to-cart
 - check hooks use-cart store 
 
+//Browsing History
+- React Hook useEffect has missing dependencies: 'addItem', 'category', and 'id'. Either include them or remove the dependency array.  react-hooks/exhaustive-deps
+
 //Qty Selector
 - fix select component transparency issue on light mode in product page. 
 
