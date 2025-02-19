@@ -67,13 +67,17 @@ export const OrderItemSchema = z.object({
   color: z.string().optional(),
 })
 
+// User
+
+
+
 // Cart
 export const CartSchema = z.object({
   items: z
     .array(OrderItemSchema)
     .min(1, 'Order must contain at least one item'),
   itemsPrice: z.number(),
-  
+
   taxPrice: z.optional(z.number()),
   shippingPrice: z.optional(z.number()),
   totalPrice: z.number(),

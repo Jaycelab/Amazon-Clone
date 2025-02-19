@@ -36,7 +36,7 @@ export default function CartButton() {
 
         {isCartSidebarOpen && (
           <div
-            className={`absolute top-[20px] 'right-[-16px] rotate-[-90deg] z-10 w-0 h- border-l-[7px] border-r-[7px] border-b-[8px] border-transparent border-b-background'`}
+            className={`absolute top-[20px] right-[-16px] rotate-[-90deg] z-10 w-0 h- border-l-[7px] border-r-[7px] border-b-[8px] border-transparent border-b-background`}
           ></div>
         )}
       </div>
