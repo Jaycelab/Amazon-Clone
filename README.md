@@ -12,9 +12,11 @@ This project is a clone of the Amazon website, built for educational purposes. I
 ## Technologies Used
 
 - Frontend: Next.JS, React
+- UI: Tailwind, Shadcn
 - Backend: Node.js, Express
-- Database: MongoDB
-- Authentication: Auth.js, Stripe
+- Database: MongoDB, Mongoose
+- Payment: PayPal, Stripe
+- Authentication: Auth.js, Google Auth, Magic Link
 
 ## Installation
 
