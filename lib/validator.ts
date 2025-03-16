@@ -1,6 +1,6 @@
 import { z } from 'zod'
 import { formatNumberWithDecimal } from './utils'
-import { Phone } from 'lucide-react'
+//import { Phone } from 'lucide-react'
 
 //PROMPT: Add a Price validator that ensures a number has exactly two decimal places. For example, 49.99 is valid, but 49.9 is not.
 const Price = (field: string) =>
@@ -109,7 +109,7 @@ export const UserInputSchema = z.object({
     state: z.string().min(1, 'State is required'),
     postalCode: z.string().min(1, 'Postal code is required'), //alternate zip locally?
     country: z.string().min(1, 'Country is required'),
-    //phone: z.string().min(1, 'Phone is required'),
+    phone: z.string().min(1, 'Phone is required'),
   }),
 })
 
