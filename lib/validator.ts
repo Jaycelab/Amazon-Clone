@@ -109,7 +109,7 @@ export const UserInputSchema = z.object({
     state: z.string().min(1, 'State is required'),
     postalCode: z.string().min(1, 'Postal code is required'), //alternate zip locally?
     country: z.string().min(1, 'Country is required'),
-    phone: z.string().min(1, 'Phone is required'),
+    //phone: z.string().min(1, 'Phone is required'),
   }),
 })
 
