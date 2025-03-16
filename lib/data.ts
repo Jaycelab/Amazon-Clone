@@ -816,6 +816,7 @@ const data: Data = {
       isPublished: true, //if false, the carousel will not be displayed
     },
   ],
+  users: [],
 }
 
 export default data
