@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { formatNumberWithDecimal } from './utils'
+import { Phone } from 'lucide-react'
 
 //PROMPT: Add a Price validator that ensures a number has exactly two decimal places. For example, 49.99 is valid, but 49.9 is not.
 const Price = (field: string) =>
@@ -73,11 +74,46 @@ export const CartSchema = z.object({
     .array(OrderItemSchema)
     .min(1, 'Order must contain at least one item'),
   itemsPrice: z.number(),
-  
+
   taxPrice: z.optional(z.number()),
   shippingPrice: z.optional(z.number()),
   totalPrice: z.number(),
   paymentMethod: z.optional(z.string()),
   deliveryDateIndex: z.optional(z.number()),
   expectedDeliveryDate: z.optional(z.date()),
+})
+
+// User
+
+const UserName = z
+  .string()
+  .min(2, { message: 'User name must be at least 2 characters' })
+  .max(50, { message: 'User name must be at most 30 characters' })
+
+const Email = z.string().min(1, 'Email is required').email('Email is invalid')
+const Password = z.string().min(3, 'Password must be at least 3 characters')
+const UserRole = z.string().min(1, 'role is required')
+
+export const UserInputSchema = z.object({
+  name: UserName,
+  email: Email,
+  image: z.string().optional(),
+  emailVerified: z.boolean(),
+  role: UserRole,
+  password: Password,
+  paymentMethod: z.string().min(1, 'Payment method is required'),
+  address: z.object({
+    fullName: z.string().min(1, 'Full name is required'),
+    street: z.string().min(1, 'Street is required'),
+    city: z.string().min(1, 'City is required'),
+    state: z.string().min(1, 'State is required'),
+    postalCode: z.string().min(1, 'Postal code is required'), //alternate zip locally?
+    country: z.string().min(1, 'Country is required'),
+    phone: z.string().min(1, 'Phone is required'),
+  }),
+})
+
+export const UserSignInSchema = z.object({
+  email: Email,
+  password: Password,
 })
